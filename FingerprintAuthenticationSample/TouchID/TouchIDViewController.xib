@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TouchIDViewController" customModule="FingerprintAuthenticationSample" customModuleProvider="target">
+            <connections>
+                <outlet property="tipsLabel" destination="NDq-4n-v3k" id="CVq-xY-xH2"/>
+                <outlet property="touchIDSwitch" destination="BOw-27-5Df" id="fbv-N4-eLA"/>
+                <outlet property="view" destination="iN0-l3-epB" id="kwl-ZB-crr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKj-DV-oyB">
+                    <rect key="frame" x="134" y="319.5" width="107" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="107" id="94G-Jf-a1n"/>
+                        <constraint firstAttribute="height" constant="28" id="ygH-E8-J0T"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="点击进行指纹认证"/>
+                    <connections>
+                        <action selector="authAction:" destination="-1" eventType="touchUpInside" id="daC-OT-lPU"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="指纹认证" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDq-4n-v3k">
+                    <rect key="frame" x="15" y="587" width="360" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="JcA-PR-35J"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BOw-27-5Df">
+                    <rect key="frame" x="311" y="611.5" width="51" height="31"/>
+                    <connections>
+                        <action selector="touchIDAction:" destination="-1" eventType="valueChanged" id="wat-rq-WjM"/>
+                    </connections>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NDq-4n-v3k" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="Fcm-oL-FR0"/>
+                <constraint firstItem="BOw-27-5Df" firstAttribute="centerY" secondItem="NDq-4n-v3k" secondAttribute="centerY" id="P2R-w9-y85"/>
+                <constraint firstItem="NDq-4n-v3k" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="Ty7-vo-yW5"/>
+                <constraint firstItem="NDq-4n-v3k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="iwF-mE-Omy"/>
+                <constraint firstAttribute="trailing" secondItem="BOw-27-5Df" secondAttribute="trailing" constant="15" id="jae-NJ-ds7"/>
+                <constraint firstItem="kKj-DV-oyB" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="kZh-v1-5uJ"/>
+                <constraint firstItem="kKj-DV-oyB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="l37-Gb-FoS"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="153.37331334332833"/>
+        </view>
+    </objects>
+</document>

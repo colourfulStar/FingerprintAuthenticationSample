@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0B21C221A69250008CFBB4 /* TouchIDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B21C121A69250008CFBB4 /* TouchIDHelper.swift */; };
+		7E93D66F21ABA3440065A3F6 /* ETouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E93D66D21ABA3430065A3F6 /* ETouchID.m */; };
+		7E93D67221ABCEBE0065A3F6 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E93D67021ABCEBE0065A3F6 /* MineViewController.swift */; };
+		7E93D67521ABCF580065A3F6 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E93D67421ABCF580065A3F6 /* MineViewController.xib */; };
+		7E93D67921ABE9B70065A3F6 /* ALToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E93D67721ABE9B70065A3F6 /* ALToastView.m */; };
+		7E93D67B21AC08B90065A3F6 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 7E93D67A21AC08B90065A3F6 /* ReadMe */; };
+		7E94361221A5021A00FD635F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E94361121A5021A00FD635F /* TabBarController.swift */; };
+		7E94361421A5096D00FD635F /* TouchIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E94361321A5096D00FD635F /* TouchIDViewController.swift */; };
+		7E94361621A50AFB00FD635F /* TouchIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E94361521A50AFB00FD635F /* TouchIDViewController.xib */; };
+		7ED83A0D21A7F6BA00269EEB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED83A0B21A7F6B900269EEB /* Storage.swift */; };
+		7ED83A0E21A7F6BA00269EEB /* TimeToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED83A0C21A7F6B900269EEB /* TimeToken.swift */; };
+		7ED83A1021A7F6CD00269EEB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED83A0F21A7F6CD00269EEB /* Router.swift */; };
 		7EDA97B821A2872C00E78F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA97B721A2872C00E78F20 /* AppDelegate.swift */; };
 		7EDA97BA21A2872C00E78F20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA97B921A2872C00E78F20 /* ViewController.swift */; };
 		7EDA97BD21A2872C00E78F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA97BB21A2872C00E78F20 /* Main.storyboard */; };
@@ -15,6 +27,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E0B21C121A69250008CFBB4 /* TouchIDHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDHelper.swift; sourceTree = "<group>"; };
+		7E93D66C21ABA3430065A3F6 /* FingerprintAuthenticationSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FingerprintAuthenticationSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E93D66D21ABA3430065A3F6 /* ETouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETouchID.m; sourceTree = "<group>"; };
+		7E93D66E21ABA3440065A3F6 /* ETouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETouchID.h; sourceTree = "<group>"; };
+		7E93D67021ABCEBE0065A3F6 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		7E93D67421ABCF580065A3F6 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		7E93D67721ABE9B70065A3F6 /* ALToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALToastView.m; sourceTree = "<group>"; };
+		7E93D67821ABE9B70065A3F6 /* ALToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALToastView.h; sourceTree = "<group>"; };
+		7E93D67A21AC08B90065A3F6 /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		7E94361121A5021A00FD635F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		7E94361321A5096D00FD635F /* TouchIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDViewController.swift; sourceTree = "<group>"; };
+		7E94361521A50AFB00FD635F /* TouchIDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TouchIDViewController.xib; sourceTree = "<group>"; };
+		7ED83A0B21A7F6B900269EEB /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		7ED83A0C21A7F6B900269EEB /* TimeToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeToken.swift; sourceTree = "<group>"; };
+		7ED83A0F21A7F6CD00269EEB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		7EDA97B421A2872C00E78F20 /* FingerprintAuthenticationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerprintAuthenticationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDA97B721A2872C00E78F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EDA97B921A2872C00E78F20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +62,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E93D67621ABE9B70065A3F6 /* ALToastView */ = {
+			isa = PBXGroup;
+			children = (
+				7E93D67721ABE9B70065A3F6 /* ALToastView.m */,
+				7E93D67821ABE9B70065A3F6 /* ALToastView.h */,
+			);
+			path = ALToastView;
+			sourceTree = "<group>";
+		};
+		7E94360F21A5016400FD635F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7E94361121A5021A00FD635F /* TabBarController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7E94361021A5016400FD635F /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				7E94361321A5096D00FD635F /* TouchIDViewController.swift */,
+				7E94361521A50AFB00FD635F /* TouchIDViewController.xib */,
+				7E0B21C121A69250008CFBB4 /* TouchIDHelper.swift */,
+			);
+			path = TouchID;
+			sourceTree = "<group>";
+		};
+		7ED83A0A21A7F6B900269EEB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7E93D66E21ABA3440065A3F6 /* ETouchID.h */,
+				7E93D66D21ABA3430065A3F6 /* ETouchID.m */,
+				7ED83A0B21A7F6B900269EEB /* Storage.swift */,
+				7ED83A0C21A7F6B900269EEB /* TimeToken.swift */,
+				7ED83A0F21A7F6CD00269EEB /* Router.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		7EDA97AB21A2872C00E78F20 = {
 			isa = PBXGroup;
 			children = (
+				7E93D67A21AC08B90065A3F6 /* ReadMe */,
 				7EDA97B621A2872C00E78F20 /* FingerprintAuthenticationSample */,
 				7EDA97B521A2872C00E78F20 /* Products */,
 			);
@@ -54,8 +121,15 @@
 		7EDA97B621A2872C00E78F20 /* FingerprintAuthenticationSample */ = {
 			isa = PBXGroup;
 			children = (
+				7E94360F21A5016400FD635F /* Base */,
+				7E94361021A5016400FD635F /* TouchID */,
+				7ED83A0A21A7F6B900269EEB /* Helper */,
+				7E93D67621ABE9B70065A3F6 /* ALToastView */,
 				7EDA97B721A2872C00E78F20 /* AppDelegate.swift */,
 				7EDA97B921A2872C00E78F20 /* ViewController.swift */,
+				7E93D67021ABCEBE0065A3F6 /* MineViewController.swift */,
+				7E93D67421ABCF580065A3F6 /* MineViewController.xib */,
+				7E93D66C21ABA3430065A3F6 /* FingerprintAuthenticationSample-Bridging-Header.h */,
 				7EDA97BB21A2872C00E78F20 /* Main.storyboard */,
 				7EDA97BE21A2872F00E78F20 /* Assets.xcassets */,
 				7EDA97C021A2872F00E78F20 /* LaunchScreen.storyboard */,
@@ -96,6 +170,7 @@
 				TargetAttributes = {
 					7EDA97B321A2872C00E78F20 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,7 +197,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E93D67521ABCF580065A3F6 /* MineViewController.xib in Resources */,
 				7EDA97C221A2872F00E78F20 /* LaunchScreen.storyboard in Resources */,
+				7E93D67B21AC08B90065A3F6 /* ReadMe in Resources */,
+				7E94361621A50AFB00FD635F /* TouchIDViewController.xib in Resources */,
 				7EDA97BF21A2872F00E78F20 /* Assets.xcassets in Resources */,
 				7EDA97BD21A2872C00E78F20 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +213,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED83A1021A7F6CD00269EEB /* Router.swift in Sources */,
+				7E94361221A5021A00FD635F /* TabBarController.swift in Sources */,
+				7E94361421A5096D00FD635F /* TouchIDViewController.swift in Sources */,
+				7E0B21C221A69250008CFBB4 /* TouchIDHelper.swift in Sources */,
 				7EDA97BA21A2872C00E78F20 /* ViewController.swift in Sources */,
+				7E93D66F21ABA3440065A3F6 /* ETouchID.m in Sources */,
+				7E93D67921ABE9B70065A3F6 /* ALToastView.m in Sources */,
 				7EDA97B821A2872C00E78F20 /* AppDelegate.swift in Sources */,
+				7ED83A0D21A7F6BA00269EEB /* Storage.swift in Sources */,
+				7ED83A0E21A7F6BA00269EEB /* TimeToken.swift in Sources */,
+				7E93D67221ABCEBE0065A3F6 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +369,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BW85H86NCW;
 				INFOPLIST_FILE = FingerprintAuthenticationSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sisi.FingerprintAuthenticationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FingerprintAuthenticationSample/FingerprintAuthenticationSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +391,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BW85H86NCW;
 				INFOPLIST_FILE = FingerprintAuthenticationSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sisi.FingerprintAuthenticationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FingerprintAuthenticationSample/FingerprintAuthenticationSample-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
