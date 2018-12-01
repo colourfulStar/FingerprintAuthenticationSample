@@ -80,6 +80,16 @@ class TouchIDHelper: NSObject {
     
     func showTouchID(_ autoCheck: Bool, _ viewController: UIViewController) {
         if #available(iOS 9, *) {
+            if TouchIDHelper.sharedInstance.getState() == TouchIDState.unsupport.rawValue {
+                let alert = UIAlertController.init(title: "您的设备不支持touchID", message: "", preferredStyle: .alert)
+                let confirmAction = UIAlertAction.init(title: "确定", style: .default, handler: { (action) in
+                    alert.dismiss(animated: true, completion: nil)
+                })
+                alert.addAction(confirmAction)
+                Router.sharedInstance.getRootVC().present(alert, animated: true, completion: nil)
+                return;
+            }
+            
             if autoCheck == false {
                viewController.navigationController?.pushViewController(TouchIDViewController(false), animated: true)
                 
